@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(234 237 241);
+    font-family: "rockwell";
+}
+
+.add-post:hover {
+    background-color: white !important;
+    color: blue !important;
+}
