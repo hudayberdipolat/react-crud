@@ -1,9 +1,10 @@
 const Footer = () => {
+
+    const  year = new Date().getFullYear()
     return (
         <>
-            <footer class="container-fluid bg-dark mt-5 p-3">
-                <p class="text-center text-white m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, praesentium.
-                </p>
+            <footer className="container-fluid bg-dark  p-3 mt-5 footer">
+                <p className="text-center text-white m-0"> &copy; copyright. Hudayberdi Polatov. {year} </p>
             </footer>
         </>
     )
